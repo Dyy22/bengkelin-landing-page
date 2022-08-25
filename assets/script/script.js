@@ -30,11 +30,9 @@ for (let i = 0; i < servicesListElements.length; i++) {
 let date = new Date().getFullYear();
 document.querySelector(".year").innerText = date;
 
-// hamburger menu
 const menuToggle = document.querySelector(".menu-toggle input");
 const nav = document.querySelector("nav .nav-list");
 
 menuToggle.addEventListener("click", function () {
   nav.classList.toggle("slide");
 });
-// akhir

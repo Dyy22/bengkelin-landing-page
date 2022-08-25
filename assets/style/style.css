@@ -35,7 +35,6 @@ header {
     color: white;
     transition: .5s;
     z-index: 5;
-    /* box-shadow: 0 3px 1rem rgba(0, 0, 0, .1); */
 }
 
 header .wrapper {
